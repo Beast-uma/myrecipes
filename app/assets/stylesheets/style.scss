@@ -1,0 +1,64 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$navbar-default-bg: #000000;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center {
+text-align: center;
+}
+
+#logo {
+float: left;
+font-size: 1.7em;
+color: #333333;
+text-transform: uppercase;
+letter-spacing: -1px;
+font-weight: bold;
+}
+
+#logo:hover {
+color:#ffffff;
+text-decoration: none;
+}
+
+.jumbotron{
+background-image: asset-url('cover_img.jpg');
+background-size: cover;
+height: 300px;
+}
+
+.jumbotron h1, h2 {
+color: #fff;
+text-align: center;
+margin-bottom: 30px;
+letter-spacing: -1px;
+font-weight: bold;
+}
+
+.btn-xlarge {
+background-color: #000000;
+border: none;
+}
+
+.btn-xlarge:hover {
+color: #000000;
+background-color: #ffffff;
+}
+
+.footer {
+background-color: #000000;
+color: #ffffff;
+height: 50px;
+}
+
+.footerdiv {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px;
+    float: right;
+}
